@@ -1,5 +1,5 @@
 
-== Database Schema Standards ==
+## Database Schema Standards
 
 * By default all tables should use InnoDB with a default character set of utf8.
 * Table names must be in UpperCamelCase.
