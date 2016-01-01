@@ -14,13 +14,13 @@
 Examples:
 
 ```sql
-SELECT * FROM someTable WHERE isEnabled AND NOT isDeleted
+SELECT * FROM someTable WHERE isEnabled AND !isDeleted
 ```
 
 ```sql
 SELECT *
 FROM anotherTable
-WHERE NOT isEnabled
+WHERE !isEnabled
 	AND isDeleted
 ```
 
