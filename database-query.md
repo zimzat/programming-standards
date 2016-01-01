@@ -3,7 +3,10 @@
 
 * All keywords must be in uppercase.
 * Boolean values should omit equality comparison.
-* ON clauses should place the immediately joined table as the left hand side of the comparison.
+* JOIN conditions should place the immediately joined table as the left hand side of the comparison.
+* JOIN conditions containing only one comparison may be placed on the same line as the JOIN, otherwise must be split onto multiple lines and indented.
+* Queries must not use commas to include multiple tables.
+* All conditions which reference two tables should be placed in the ON instead of WHERE.
 * Queries which contain more than one table must use short aliases for all tables.
 * Short and simple queries may use a single line or may be expanded.
 * Queries that contain more than one or two SELECT columns, one or two WHERE clauses, or any JOINs must be split onto multiple lines.
