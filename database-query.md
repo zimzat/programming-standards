@@ -1,5 +1,5 @@
 
-## Database Query
+## Database Query Standards
 
 * All keywords must be in uppercase.
 * Boolean values should omit equality comparison.
